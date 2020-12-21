@@ -4,5 +4,5 @@ def my_collect(array)
     yield array
     counter += 1
   end
-  return array
+  return new_array
 end
